@@ -1,0 +1,9 @@
+C:\Users\aluno\DesAppDesk\CalcVer\bin\Debug\CalcVer.exe.config
+C:\Users\aluno\DesAppDesk\CalcVer\bin\Debug\CalcVer.exe
+C:\Users\aluno\DesAppDesk\CalcVer\bin\Debug\CalcVer.pdb
+C:\Users\aluno\DesAppDesk\CalcVer\obj\Debug\CalcVer.csproj.AssemblyReference.cache
+C:\Users\aluno\DesAppDesk\CalcVer\obj\Debug\CalcVer.Properties.Resources.resources
+C:\Users\aluno\DesAppDesk\CalcVer\obj\Debug\CalcVer.csproj.GenerateResource.cache
+C:\Users\aluno\DesAppDesk\CalcVer\obj\Debug\CalcVer.csproj.CoreCompileInputs.cache
+C:\Users\aluno\DesAppDesk\CalcVer\obj\Debug\CalcVer.exe
+C:\Users\aluno\DesAppDesk\CalcVer\obj\Debug\CalcVer.pdb
