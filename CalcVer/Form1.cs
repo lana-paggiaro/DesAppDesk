@@ -228,6 +228,34 @@ namespace CalculadoraOrmo
             addOperacao("^");
         }
 
+        private void button_ce_Click(object sender, EventArgs e)
+        {
+            display.Text = "0";
+        }
+
+        private void button_inverse_Click(object sender, EventArgs e)
+        {
+            display.Text = Convert.ToString(1 / double.Parse(display.Text.Trim()));
+        }
+
+        private void button_negpos_Click(object sender, EventArgs e)
+        {
+            display.Text = Convert.ToString(double.Parse(display.Text.Trim()) * -1);
+        }
+
+        private void button_next_Click(object sender, EventArgs e)
+        {
+            if (!display.Text.Trim().Equals(String.Empty))
+            {
+                display.Text = display.Text.Remove(display.Text.LastIndexOf(display.Text.Last()));
+            }
+        }
+
+        private void button_sqrt_Click(object sender, EventArgs e)
+        {
+            display.Text = Convert.ToString(Math.Sqrt(double.Parse(display.Text.Trim())));
+        }
+
         private void button_div_Click(object sender, EventArgs e)
         {
             addOperacao("/");

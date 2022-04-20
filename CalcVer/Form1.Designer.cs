@@ -261,8 +261,9 @@ namespace CalculadoraOrmo
             this.button_next.Name = "button_next";
             this.button_next.Size = new System.Drawing.Size(71, 57);
             this.button_next.TabIndex = 22;
-            this.button_next.Text = "=>";
+            this.button_next.Text = "<=";
             this.button_next.UseVisualStyleBackColor = false;
+            this.button_next.Click += new System.EventHandler(this.button_next_Click);
             // 
             // button_ce
             // 
@@ -275,6 +276,7 @@ namespace CalculadoraOrmo
             this.button_ce.TabIndex = 21;
             this.button_ce.Text = "CE";
             this.button_ce.UseVisualStyleBackColor = false;
+            this.button_ce.Click += new System.EventHandler(this.button_ce_Click);
             // 
             // button_c
             // 
@@ -300,6 +302,7 @@ namespace CalculadoraOrmo
             this.button_negpos.TabIndex = 3;
             this.button_negpos.Text = "-/+";
             this.button_negpos.UseVisualStyleBackColor = false;
+            this.button_negpos.Click += new System.EventHandler(this.button_negpos_Click);
             // 
             // button_equals
             // 
@@ -325,6 +328,7 @@ namespace CalculadoraOrmo
             this.button_inverse.TabIndex = 9;
             this.button_inverse.Text = "1/x";
             this.button_inverse.UseVisualStyleBackColor = false;
+            this.button_inverse.Click += new System.EventHandler(this.button_inverse_Click);
             // 
             // button_pwr2
             // 
@@ -363,6 +367,7 @@ namespace CalculadoraOrmo
             this.button_sqrt.TabIndex = 14;
             this.button_sqrt.Text = "sqrt()";
             this.button_sqrt.UseVisualStyleBackColor = false;
+            this.button_sqrt.Click += new System.EventHandler(this.button_sqrt_Click);
             // 
             // display
             // 
