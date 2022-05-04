@@ -116,7 +116,17 @@ namespace SisFin
 
         private void btnSalvar_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Registro gravado com sucesso!", "Aviso do sistema", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
+            btnNovo.Enabled = true;
+            btnNovo.Focus();
+            grpCategoria.Enabled = false;
+            btnAlterar.Enabled = true;
+            btnCancelar.Visible = false;
+            btnSalvar.Visible = false;
+            btnExcluir.Visible = true;
+            Insercao = false;
+            Edicao = false;
         }
 
         private void btnCancelar_Click(object sender, EventArgs e)
