@@ -11,6 +11,7 @@ namespace SisFin
     public partial class MenuPrincipal : Form
     {
         private int childFormNumber = 0;
+        private static frmCategoria fCategoria;
 
         public MenuPrincipal()
         {
@@ -115,10 +116,25 @@ namespace SisFin
 
         private void subMenuCategoria_Click(object sender, EventArgs e)
         {
-            frmCategoria fCategoria = new frmCategoria();
+            if(fCategoria == null)
+            {
+                fCategoria = new frmCategoria();
+                fCategoria.FormClosed += new FormClosedEventHandler(fCategoria_Closed);
+            }
+            else
+            {
+                fCategoria.Activate();
+            }
+
             fCategoria.MdiParent = this;
             fCategoria.Show();
 
         }
+
+        void fCategoria_Closed(object sender, FormClosedEventArgs e)
+        {
+            fCategoria = null;
+        }
+
     }
 }
