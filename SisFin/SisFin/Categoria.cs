@@ -51,5 +51,7 @@ namespace SisFin
             return _lstCategoria;
         }
 
+        
+
     }
 }

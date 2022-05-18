@@ -62,7 +62,7 @@ namespace SisFin
             this.grpCategoria.Controls.Add(this.txtNome);
             this.grpCategoria.Location = new System.Drawing.Point(13, 9);
             this.grpCategoria.Name = "grpCategoria";
-            this.grpCategoria.Size = new System.Drawing.Size(753, 236);
+            this.grpCategoria.Size = new System.Drawing.Size(779, 236);
             this.grpCategoria.TabIndex = 0;
             this.grpCategoria.TabStop = false;
             this.grpCategoria.Enter += new System.EventHandler(this.grpCategoria_Enter);
@@ -147,7 +147,7 @@ namespace SisFin
             this.txtDescricao.Location = new System.Drawing.Point(104, 97);
             this.txtDescricao.MaxLength = 100;
             this.txtDescricao.Name = "txtDescricao";
-            this.txtDescricao.Size = new System.Drawing.Size(592, 29);
+            this.txtDescricao.Size = new System.Drawing.Size(644, 29);
             this.txtDescricao.TabIndex = 1;
             this.txtDescricao.TextChanged += new System.EventHandler(this.txtDescricao_TextChanged);
             // 
@@ -208,7 +208,7 @@ namespace SisFin
             // btnCancelar
             // 
             this.btnCancelar.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.btnCancelar.Location = new System.Drawing.Point(684, 529);
+            this.btnCancelar.Location = new System.Drawing.Point(710, 529);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(82, 38);
             this.btnCancelar.TabIndex = 5;
@@ -223,7 +223,7 @@ namespace SisFin
             this.dgCategoria.Location = new System.Drawing.Point(12, 251);
             this.dgCategoria.Name = "dgCategoria";
             this.dgCategoria.RowTemplate.Height = 25;
-            this.dgCategoria.Size = new System.Drawing.Size(754, 272);
+            this.dgCategoria.Size = new System.Drawing.Size(780, 272);
             this.dgCategoria.TabIndex = 6;
             // 
             // frmCategoria
@@ -231,7 +231,7 @@ namespace SisFin
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(778, 579);
+            this.ClientSize = new System.Drawing.Size(804, 579);
             this.Controls.Add(this.dgCategoria);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnSalvar);

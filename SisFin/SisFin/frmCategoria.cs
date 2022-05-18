@@ -23,6 +23,46 @@ namespace SisFin
             lstCategoria = categoria.GeraCategorias();
         }
 
+        private void salvarRegistro(object sender, EventArgs e)
+        {
+            if (Insercao)
+            {
+                var nome = txtNome.Text.Trim();
+                var descr = txtDescricao.Text.Trim();
+                var tipo = rdReceita.Checked ? 1 : 2;
+                var status = chkStatus.Checked ? 1 : 0;
+                categoria.AddToList(3, nome, descr, tipo, status);
+            }
+
+            if (Edicao)
+            {
+                Categoria ct = lstCategoria.Find(item => item.Nome == txtNome.Text.Trim());
+                if (ct != null)
+                {
+                    ct.Descricao = txtDescricao.Text.Trim();
+                    ct.Tipo = rdReceita.Checked ? 1 : 2;
+                    ct.Status = chkStatus.Checked ? 1 : 0;
+                }
+            }
+
+            carregaGridCategoria();
+
+            MessageBox.Show("Registro gravado com sucesso!", "Aviso do sistema", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            btnNovo.Enabled = true;
+            btnNovo.Focus();
+            txtNome.Enabled = true;
+            grpCategoria.Enabled = false;
+            btnAlterar.Enabled = true;
+            btnCancelar.Visible = false;
+            btnSalvar.Visible = false;
+            btnExcluir.Visible = true;
+            dgCategoria.Enabled = true; //novo
+
+            Insercao = false;
+            Edicao = false;
+        }
+
         private void limparCampos()
         {
             txtNome.Clear();
