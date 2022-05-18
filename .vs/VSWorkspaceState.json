@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\SisFin",
+    "\\SisFin\\SisFin"
   ],
-  "SelectedNode": "\\SisFin.sln",
+  "SelectedNode": "\\SisFin\\SisFin\\frmCategoria.cs",
   "PreviewInSolutionExplorer": false
 }
