@@ -217,7 +217,7 @@ namespace SisFin
             rdReceita.Enabled = false;
             rdDespesa.Enabled = false;
             chkStatus.Enabled = false;
-            Insercao = true;
+            Insercao = false;
             Edicao = false;
         }
 
