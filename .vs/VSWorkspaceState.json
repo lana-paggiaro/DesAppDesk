@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\SisFin",
+    "\\SisFin\\SisFin"
   ],
-  "SelectedNode": "\\C:\\Users\\aluno\\DesAppDesk",
+  "SelectedNode": "\\SisFin\\SisFin\\frmCategoria.cs",
   "PreviewInSolutionExplorer": false
 }

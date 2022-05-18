@@ -136,5 +136,9 @@ namespace SisFin
             fCategoria = null;
         }
 
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Catarina Fagotti Bonifácio = 201171 / Luanna Sachinelli Paggiaro = 201174", "Aviso do Sistema!", MessageBoxButtons.OK);
+        }
     }
 }

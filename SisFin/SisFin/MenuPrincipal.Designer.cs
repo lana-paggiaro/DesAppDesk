@@ -330,14 +330,14 @@ namespace SisFin
             // subMenuCategoria
             // 
             this.subMenuCategoria.Name = "subMenuCategoria";
-            this.subMenuCategoria.Size = new System.Drawing.Size(180, 26);
+            this.subMenuCategoria.Size = new System.Drawing.Size(147, 26);
             this.subMenuCategoria.Text = "Categoria";
             this.subMenuCategoria.Click += new System.EventHandler(this.subMenuCategoria_Click);
             // 
             // subMenuConta
             // 
             this.subMenuConta.Name = "subMenuConta";
-            this.subMenuConta.Size = new System.Drawing.Size(180, 26);
+            this.subMenuConta.Size = new System.Drawing.Size(147, 26);
             this.subMenuConta.Text = "Conta";
             // 
             // toolsMenu
@@ -454,6 +454,7 @@ namespace SisFin
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
             this.aboutToolStripMenuItem.Size = new System.Drawing.Size(211, 26);
             this.aboutToolStripMenuItem.Text = "&Sobre ... ...";
+            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
             // toolStrip
             // 
