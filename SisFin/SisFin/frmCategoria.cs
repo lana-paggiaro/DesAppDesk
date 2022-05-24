@@ -116,7 +116,6 @@ namespace SisFin
         private void btnAlterar_Click(object sender, EventArgs e)
         {
             grpCategoria.Enabled = true;
-            limparCampos();
             txtNome.Focus();
             btnAlterar.Enabled = false;
             btnCancelar.Visible = true;
@@ -146,7 +145,6 @@ namespace SisFin
         {
             MessageBox.Show("Registro gravado com sucesso!", "Aviso do sistema", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-            limparCampos();
             btnNovo.Enabled = true;
             btnNovo.Focus();
             grpCategoria.Enabled = false;
