@@ -12,6 +12,7 @@ namespace SisFin
     {
         private int childFormNumber = 0;
         private static frmCategoria fCategoria;
+        private static frmConta fConta;
 
         public MenuPrincipal()
         {
@@ -139,6 +140,26 @@ namespace SisFin
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Catarina Fagotti Bonifácio = 201171 / Luanna Sachinelli Paggiaro = 201174", "Aviso do Sistema!", MessageBoxButtons.OK);
+        }
+
+        private void subMenuConta_Click(object sender, EventArgs e)
+        {
+            if (fConta == null)
+            {
+                fConta = new frmConta();
+                fConta.FormClosed += new FormClosedEventHandler(fConta_Closed);
+            }
+            else
+            {
+                fConta.Activate();
+            }
+
+            fConta.MdiParent = this;
+            fConta.Show();
+        }
+        void fConta_Closed(object sender, FormClosedEventArgs e)
+        {
+            fConta = null;
         }
     }
 }

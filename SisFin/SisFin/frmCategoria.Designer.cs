@@ -218,7 +218,7 @@ namespace SisFin
             // 
             // dgCategoria
             // 
-            this.dgCategoria.BackgroundColor = System.Drawing.SystemColors.WindowFrame;
+            this.dgCategoria.BackgroundColor = System.Drawing.SystemColors.ControlText;
             this.dgCategoria.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgCategoria.Location = new System.Drawing.Point(12, 251);
             this.dgCategoria.Name = "dgCategoria";
