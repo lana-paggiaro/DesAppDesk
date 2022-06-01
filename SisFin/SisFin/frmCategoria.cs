@@ -92,6 +92,7 @@ namespace SisFin
                 e.Cancel = true;
                 MessageBox.Show("Salve ou cancele antes de fechar!", "Aviso do sistema!", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
+            if (Insercao) ;
         }
 
         private void frmCategoria_Load(object sender, EventArgs e)
@@ -144,6 +145,30 @@ namespace SisFin
             dgCategoria.Refresh();
         }
 
+        private void salvarCadastro(object sender, EventArgs e)
+        {
+
+            if (Insercao)
+            {
+                var nome = txtNome.Text.Trim();
+                var descr = txtDescricao.Text.Trim();
+                var tipo = rdReceita.Checked ? 1 : 2;
+                var status = chkStatus.Checked ? 1 : 0;
+                categoria.AddToList(3, nome, descr, tipo, status);
+            }
+
+            if (Edicao)
+            {
+                Categoria ct = lstCategoria.Find(item => item.Nome == txtNome.Text.Trim());
+                if (ct != null)
+                {
+                    ct.Descricao = txtDescricao.Text.Trim();
+                    ct.Tipo = rdReceita.Checked ? 1 : 2;
+                    ct.Status = chkStatus.Checked ? 1 : 0;
+                }
+
+            }
+        }
 
         private void grpCategoria_Enter(object sender, EventArgs e)
         {
@@ -197,7 +222,6 @@ namespace SisFin
         private void btnAlterar_Click(object sender, EventArgs e)
         {
             grpCategoria.Enabled = true;
-            limparCampos();
             txtNome.Focus();
             btnAlterar.Enabled = false;
             btnCancelar.Visible = true;
@@ -227,7 +251,6 @@ namespace SisFin
         {
             MessageBox.Show("Registro gravado com sucesso!", "Aviso do sistema", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-            limparCampos();
             btnNovo.Enabled = true;
             btnNovo.Focus();
             grpCategoria.Enabled = false;
@@ -242,6 +265,27 @@ namespace SisFin
             rdReceita.Enabled = false;
             rdDespesa.Enabled = false;
             chkStatus.Enabled = false;
+
+            if (Insercao)
+            {
+                var nome = txtNome.Text.Trim();
+                var descr = txtDescricao.Text.Trim();
+                var tipo = rdReceita.Checked ? 1 : 2;
+                var status = chkStatus.Checked ? 1 : 0;
+                categoria.AddToList(3, nome, descr, tipo, status);
+            }
+
+            if (Edicao)
+            {
+                Categoria ct = lstCategoria.Find(item => item.Nome == txtNome.Text.Trim());
+                if (ct != null)
+                {
+                    ct.Descricao = txtDescricao.Text.Trim();
+                    ct.Tipo = rdReceita.Checked ? 1 : 2;
+                    ct.Status = chkStatus.Checked ? 1 : 0;
+                }
+
+            }
         }
 
         private void btnCancelar_Click(object sender, EventArgs e)
