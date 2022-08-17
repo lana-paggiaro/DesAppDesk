@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31829.152
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cronometro", "Cronometro.csproj", "{3AE38177-9980-4E03-84CF-04F3C0A1C5CF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semaforo", "Semaforo.csproj", "{1AF1CD27-DE13-4002-BBAB-324E372AF7FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3AE38177-9980-4E03-84CF-04F3C0A1C5CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3AE38177-9980-4E03-84CF-04F3C0A1C5CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3AE38177-9980-4E03-84CF-04F3C0A1C5CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3AE38177-9980-4E03-84CF-04F3C0A1C5CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AF1CD27-DE13-4002-BBAB-324E372AF7FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AF1CD27-DE13-4002-BBAB-324E372AF7FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AF1CD27-DE13-4002-BBAB-324E372AF7FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AF1CD27-DE13-4002-BBAB-324E372AF7FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {7093EE0F-8289-4FDD-A388-B74B5BEEFED1}
+		SolutionGuid = {13D50E2F-699A-4CF6-8C1D-CAB8BBCCB12C}
 	EndGlobalSection
 EndGlobal

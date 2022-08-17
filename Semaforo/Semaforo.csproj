@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3AE38177-9980-4E03-84CF-04F3C0A1C5CF}</ProjectGuid>
+    <ProjectGuid>{1AF1CD27-DE13-4002-BBAB-324E372AF7FE}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Cronometro</RootNamespace>
-    <AssemblyName>Cronometro</AssemblyName>
+    <RootNamespace>Semaforo</RootNamespace>
+    <AssemblyName>Semaforo</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
