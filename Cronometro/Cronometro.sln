@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31829.152
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplashScreen", "SplashScreen.csproj", "{87B54104-6562-4807-837D-2980E6A124E3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cronometro", "Cronometro.csproj", "{3AE38177-9980-4E03-84CF-04F3C0A1C5CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{87B54104-6562-4807-837D-2980E6A124E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{87B54104-6562-4807-837D-2980E6A124E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{87B54104-6562-4807-837D-2980E6A124E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{87B54104-6562-4807-837D-2980E6A124E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AE38177-9980-4E03-84CF-04F3C0A1C5CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AE38177-9980-4E03-84CF-04F3C0A1C5CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AE38177-9980-4E03-84CF-04F3C0A1C5CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AE38177-9980-4E03-84CF-04F3C0A1C5CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {6EA1734D-06E7-45DF-B39E-CDFE66A7DA38}
+		SolutionGuid = {7093EE0F-8289-4FDD-A388-B74B5BEEFED1}
 	EndGlobalSection
 EndGlobal
