@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1AF1CD27-DE13-4002-BBAB-324E372AF7FE}</ProjectGuid>
+    <ProjectGuid>{A8728E86-472D-4AE9-A693-3B8954802E82}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Semaforo</RootNamespace>
-    <AssemblyName>Semaforo</AssemblyName>
+    <RootNamespace>TabContrlMaskedTextBox</RootNamespace>
+    <AssemblyName>TabContrlMaskedTextBox</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

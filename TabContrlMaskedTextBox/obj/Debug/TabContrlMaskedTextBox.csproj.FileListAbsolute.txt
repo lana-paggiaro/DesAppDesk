@@ -1,0 +1,10 @@
+C:\Users\aluno\source\repos\TabContrlMaskedTextBox\bin\Debug\TabContrlMaskedTextBox.exe.config
+C:\Users\aluno\source\repos\TabContrlMaskedTextBox\bin\Debug\TabContrlMaskedTextBox.exe
+C:\Users\aluno\source\repos\TabContrlMaskedTextBox\bin\Debug\TabContrlMaskedTextBox.pdb
+C:\Users\aluno\source\repos\TabContrlMaskedTextBox\obj\Debug\TabContrlMaskedTextBox.csproj.AssemblyReference.cache
+C:\Users\aluno\source\repos\TabContrlMaskedTextBox\obj\Debug\TabContrlMaskedTextBox.Form1.resources
+C:\Users\aluno\source\repos\TabContrlMaskedTextBox\obj\Debug\TabContrlMaskedTextBox.Properties.Resources.resources
+C:\Users\aluno\source\repos\TabContrlMaskedTextBox\obj\Debug\TabContrlMaskedTextBox.csproj.GenerateResource.cache
+C:\Users\aluno\source\repos\TabContrlMaskedTextBox\obj\Debug\TabContrlMaskedTextBox.csproj.CoreCompileInputs.cache
+C:\Users\aluno\source\repos\TabContrlMaskedTextBox\obj\Debug\TabContrlMaskedTextBox.exe
+C:\Users\aluno\source\repos\TabContrlMaskedTextBox\obj\Debug\TabContrlMaskedTextBox.pdb

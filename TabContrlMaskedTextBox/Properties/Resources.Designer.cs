@@ -9,7 +9,7 @@
 //------------------------------------------------------------------------------
 
 
-namespace Semaforo.Properties
+namespace TabContrlMaskedTextBox.Properties
 {
     /// <summary>
     ///   Uma classe de recurso fortemente tipados, para pesquisar cadeias de caracteres localizadas etc.
@@ -43,7 +43,7 @@ namespace Semaforo.Properties
             {
                 if ((resourceMan == null))
                 {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Semaforo.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("TabContrlMaskedTextBox.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
